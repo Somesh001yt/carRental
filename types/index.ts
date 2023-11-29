@@ -44,3 +44,18 @@ export interface CustomButtonProps {
     searchParams: FilterProps;
   }
   
+
+  export interface customFilterProps {
+    title : string;
+    options : OptionsProps []
+  }
+
+  export interface OptionsProps{
+    title : string;
+    value : string
+  }
+
+  export interface ShowMoreProps {
+    pageNumber: number;
+    isNext: boolean;
+  }

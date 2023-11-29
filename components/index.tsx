@@ -7,7 +7,8 @@ import CustomFIlter from "./CustomFIiter";
 import SearchManufacturer from "./SearchManufacturer";
 import CarsCard from "./CarsCard";
 import CarDetails from "./CarDetails";
+import ShowMore from "./ShowMore";
 
 export {
-    Hero , CustomButton , Navbar , Footer , CustomFIlter ,SearchBar , SearchManufacturer , CarsCard , CarDetails
+    Hero , CustomButton , Navbar , Footer , CustomFIlter ,SearchBar , SearchManufacturer , CarsCard , CarDetails ,ShowMore
 }
